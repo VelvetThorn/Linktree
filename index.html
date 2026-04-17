@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Links</title>
+    <style>
+        /* General Page Styling */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f3f4f6; /* Light gray background */
+            color: #1f2937;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 50px 20px;
+            margin: 0;
+        }
+
+        /* Profile Image Styling */
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            border: 4px solid #ffffff;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        /* Text Styling */
+        h1 {
+            margin: 0 0 5px 0;
+            font-size: 1.8rem;
+        }
+
+        p {
+            margin: 0 0 30px 0;
+            color: #4b5563;
+            text-align: center;
+            font-size: 1rem;
+        }
+
+        /* Links Container */
+        .links-container {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            max-width: 400px; /* Keeps buttons from getting too wide on desktop */
+            gap: 15px;
+        }
+
+        /* Individual Button Styling */
+        .link-btn {
+            background-color: #ffffff;
+            color: #1f2937;
+            text-decoration: none;
+            padding: 16px 20px;
+            border-radius: 12px;
+            text-align: center;
+            font-weight: 600;
+            border: 1px solid #e5e7eb;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            transition: all 0.2s ease-in-out;
+        }
+
+        /* Button Hover Effect */
+        .link-btn:hover {
+            background-color: #1f2937; /* Dark background on hover */
+            color: #ffffff; /* White text on hover */
+            transform: translateY(-3px); /* Slight jump effect */
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+        }
+    </style>
+</head>
+<body>
+
+    <img src="https://github.com/VelvetThorn/Linktree/blob/main/131A05B5-7A14-4CA6-8AD0-4F9AC65C6C96.jpg">
+    
+    <h1>Your JosieRosie666 </h1>
+    <p>Creator | Developer | Enthusiast</p>
+
+    <div class="links-container">
+        <a href="https://yourwebsite.com" class="link-btn" target="_blank">My Portfolio</a>
+        <a href="https://github.com/yourusername" class="link-btn" target="_blank">GitHub</a>
+        <a href="https://twitter.com/yourusername" class="link-btn" target="_blank">Twitter / X</a>
+        <a href="https://linkedin.com/in/yourusername" class="link-btn" target="_blank">LinkedIn</a>
+        <a href="mailto:hello@example.com" class="link-btn">Email Me</a>
+    </div>
+
+</body>
+</html>
